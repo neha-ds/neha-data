@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Swiper Banner Example</title>
+
+  <!-- Swiper CSS (v11) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <style>
+    /* Basic resets + layout */
+    body { margin:0; font-family: Arial, sans-serif; background:#111; color:#fff; }
+    .container { max-width:1200px; margin:0 auto; padding:20px; }
+
+    /* Banner area */
+    .banner { position: relative; overflow: hidden; }
+    .swiper { width:100%; height:520px; position:relative; }
+    .swiper-slide { position:relative; display:flex; align-items:center; justify-content:center; }
+    .swiper-slide img { width:100%; height:520px; object-fit:cover; display:block; }
+
+    /* overlay content */
+    .banner-content {
+      position:absolute;
+      left:6%;
+      top:50%;
+      transform:translateY(-50%);
+      z-index:20;
+      text-align:left;
+      max-width:46%;
+    }
+    .subtitle { font-size:14px; letter-spacing:2px; margin-bottom:8px; color:#ffd; }
+    h2 { margin:0 0 12px; font-size:36px; line-height:1.05; color:#fff; }
+    .btn { display:inline-block; padding:10px 18px; background:#fff; color:#111; text-decoration:none; border-radius:4px; font-weight:600; }
+
+    /* Swiper controls look */
+    .swiper-button-next, .swiper-button-prev { color:#fff; }
+    .swiper-pagination-bullet { background: rgba(255,255,255,0.6); }
+
+    /* Responsive: smaller height on small screens */
+    @media (max-width:768px) {
+      .swiper, .swiper-slide img { height:360px; }
+      .banner-content { left:4%; max-width:70%; }
+      h2 { font-size:26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="container">
+      <!-- Swiper main container -->
+      <div class="swiper bannerSwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <img src="images/slide-1.jpg" alt="Slide 1">
+            <div class="banner-content">
+              <div class="subtitle">HEADPHONE</div>
+              <h2>Discover Superior Sound</h2>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <img src="images/slide-2.jpg" alt="Slide 2">
+            <div class="banner-content">
+              <div class="subtitle">HEADPHONE</div>
+              <h2>Discover Superior Sound</h2>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <img src="images/slide-3.jpg" alt="Slide 3">
+            <div class="banner-content">
+              <div class="subtitle">Sofa</div>
+              <h2>Discover sofa</h2>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <img src="images/slide-4.jpg" alt="Slide 4">
+            <div class="banner-content">
+              <div class="subtitle">Sale Up To 30%</div>
+              <h2>Discover Superior Sound</h2>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination / Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev" aria-label="Previous slide"></div>
+        <div class="swiper-button-next" aria-label="Next slide"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS (v11) -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Initialize after DOM is ready (script is at bottom so this is fine)
+    const bannerSwiper = new Swiper('.bannerSwiper', {
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      speed: 900,
+      effect: 'fade', // optional, remove if you prefer slide
+      fadeEffect: { crossFade: true },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+  </script>
+</body>
+</html>
