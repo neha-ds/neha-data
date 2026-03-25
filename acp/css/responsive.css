@@ -1,0 +1,654 @@
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .header-inner .nav-item.sub-inner:hover .sub-nav-test,.header-inner .nav-item.sub-inner:hover .sub-nav-contact {
+        display: block;
+    }
+
+    .bottom-header .login .navbar-special:hover .navbar-special-sub {
+        display: block;
+    }
+}
+
+@media (max-width: 1320px) {
+    .header-inner .navbar-nav .nav-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .acp-facility-left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .facility-right .facility-block {
+        padding: 20px 24px;
+    }
+
+    .header-inner .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .bottom-header {
+        padding: 15px 8px;
+    }
+
+    .header-inner .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .bottom-header .login {
+        margin-right: 10px;
+    }
+
+    .header-inner .navbar-nav .nav-item {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .bottom-header .login-block {
+        margin-right: 20px;
+    }
+
+    .contact-right {
+        padding-left: 14px;
+    }
+
+    .dashboard-block .customer-product .trending-content h3 {
+        font-size: 16px;
+    }
+
+    .testimonial-block {
+        padding: 20px 12px;
+    }
+
+    .review-star {
+        font-size: 12px;
+        padding: 4px 7px;
+    }
+
+    .review-star img {
+        width: 14px;
+        height: 14px;
+    }
+    .title {
+    font-size: 34px;
+}
+}
+
+@media (max-width: 991px) {
+    .header-inner nav.navbar.navbar-expand-lg {
+        position: absolute;
+        background: transparent;
+        top: 74px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .navbar-nav {
+        background: #093542;
+    }
+
+    .header-inner .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+        padding: 14px 16px;
+    }
+
+    .header-inner .navbar-nav .nav-item {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+ .toggle-sub-menu-test,.toggle-sub-menu-contact{
+        float: right;
+        border-top: 8px dashed;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-top: 6px;
+    }
+    .navbar-nav .toggle-sub-menu{
+        margin-top: 8px;
+    }
+    .navbar-user .toggle-sub-menu{
+        margin-top: 12px;
+    }
+    .header-inner .navbar-nav .nav-item .sub-nav {
+        display: none;
+    }
+
+    .header-inner .navbar-nav .nav-item .sub-nav.show,.header-inner .navbar-nav .nav-item .sub-nav-test.show,.header-inner .navbar-nav .nav-item .sub-nav-contact.show{
+        display: block;
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+    .header-inner nav.navbar.navbar-expand-lg .sub-nav-test.show,.header-inner nav.navbar.navbar-expand-lg .sub-nav-contact {
+    background: #FED700;
+     }
+    .header-inner .navbar-nav .nav-item .sub-nav .nav-link {
+        color: #07294D;
+        padding: 8px;
+    }
+     .header-inner .navbar-expand-lg .navbar-nav .sub-nav-item .nav-link {
+    color: #07294D;
+    padding: 8px 3px;
+}
+    .bottom-header .login-block {
+        margin-right: 16px;
+    }
+
+    .bottom-header .login-block {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .banner-content h2 {
+        font-size: 50px;
+    }
+
+    .about-image {
+        margin-top: 30px;
+    }
+
+    .about-sec .hover-img img {
+        width: 100%;
+    }
+
+    .testimonial-review {
+        mask-image: initial;
+    }
+
+    .acp-facility-left {
+        width: 100%;
+    }
+
+    .acp-facility-right {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 24px;
+        position: relative;
+    }
+
+    .facility-slide {
+        margin-right: 0;
+    }
+
+    .priceing-block,
+    .trending-block {
+        margin-bottom: 30px;
+    }
+
+    .camping-content,
+    .camping-img {
+        width: 100%;
+    }
+
+    .faq-sec .accordion {
+        padding: 0 24px;
+    }
+
+    .contact-right {
+        margin-top: 30px;
+    }
+
+    .contact-footer,
+    .menu-footer {
+        margin-top: 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .footer-bottom .dots-logo {
+        float: initial;
+        justify-content: center;
+    }
+
+    .acp-facility {
+        padding: 70px 0;
+    }
+
+    .contact-block.contact-location p {
+        padding-right: 0;
+    }
+
+    .book-btn {
+        margin-top: 14px;
+    }
+
+    .help-block .help-content {
+        width: 50%;
+        margin-bottom: 42px;
+    }
+
+    .help-sec {
+        padding: 40px 0;
+    }
+
+    .login-banner h2 {
+        font-size: 34px;
+    }
+
+    .frankies-banner {
+        padding: 90px 0;
+    }
+
+    .frankies-banner .title {
+        font-size: 34px;
+    }
+
+    .frankies-btn {
+        margin-top: 14px;
+    }
+
+    .frankies-btn .read-more {
+        max-width: 208px;
+        font-size: 18px;
+        padding: 12px 23px;
+    }
+
+    .frankies-btn .read-more::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Dashboard */
+    .side-tabs .nav-tabs .nav-link {
+        padding: 18px;
+        min-width: 200px;
+    }
+
+    .acp-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .acp-img img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+    /* Dashboard */
+    /* Testimonial */
+    .testimonial-block {
+        margin-left: 0;
+    }
+
+    /* Testimonial */
+    .product-media {
+    width: 100%;
+}
+.product-info-content {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 36px;
+}
+}
+
+@media (max-width: 767px) {
+    .logo img {
+    max-width: 120px;
+    }
+    .bottom-header .login-block {
+    width: auto;
+    margin-left: auto;
+    }
+    .banner-content h2 {
+        font-size: 28px;
+    }
+
+    .banner .slick-prev,
+    .banner .slick-next {
+        width: 45px;
+        height: 45px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .banner .slick-next {
+        right: 15px;
+    }
+
+    .banner .slick-prev {
+        left: 15px;
+    }
+
+    .video-img .shadow-video {
+        margin-right: -8px;
+        max-width: 230px;
+        margin-top: -30px;
+    }
+
+    .all-product {
+        gap: 18px;
+        margin-top: 20px;
+    }
+
+    .priceplan-sec,
+    .acp-facility {
+        padding: 55px 0;
+    }
+
+    .all-product img {
+        display: none;
+    }
+
+    .contact-right h2 {
+        padding-right: 0;
+    }
+
+    .contact-form {
+        padding: 32px 18px;
+    }
+
+    .contact-form .form-group:before {
+        right: 30px;
+    }
+
+    .contact-sec {
+        padding: 55px 0;
+    }
+
+    .trending-products {
+        padding: 44px 0 48px;
+    }
+
+    .trending-products .row {
+        justify-content: center;
+    }
+
+    .testimonial-review {
+        margin-right: 0;
+        -webkit-mask-image: initial;
+    }
+
+    .faq-sec {
+        padding: 24px 0 55px;
+    }
+
+    .booking-banner {
+        padding: 55px 0;
+    }
+
+    .login-banner h2 {
+        font-size: 24px;
+    }
+
+    .user-btn a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .user-information {
+    padding: 14px 15px 20px;
+}
+
+    .login-banner {
+        padding: 40px 0;
+    }
+
+    .breadcrumb li {
+        font-size: 14px;
+    }
+
+    .dashboard-block {
+        padding: 20px 15px 10px;
+    }
+
+    .contact-sec.login-page.dashboard-inner {
+        padding: 32px 0;
+    }
+
+    .acp-facility .slick-prev {
+        left: 0;
+    }
+
+    .acp-facility .slick-prev,
+    .acp-facility .slick-next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .acp-facility .slick-prev:before,
+    .acp-facility .slick-next:before {
+        width: 14px;
+        height: 12px;
+    }
+
+    .help-block .help-content {
+        width: 100%;
+    }
+
+    .testimonial-review .slick-list {
+        padding: 10px;
+    }
+
+    .frankies-banner {
+        padding: 40px 0;
+    }
+
+    .frankies-banner .title {
+        font-size: 24px;
+    }
+
+    /* Dashboard */
+    .booking-page .message-success {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .user-field,
+    .email-field {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .dashboard-inner h4,
+    .dashboard-inner .customer-product h3,
+    .dashboard-inner h3 {
+        font-size: 24px;
+    }
+
+    .dashboard-banner {
+        padding: 50px 0;
+    }
+
+    .dashboard-banner .title {
+        font-size: 22px;
+    }
+
+    .dashboard-tabs .nav-tabs {
+        column-gap: 14px;
+    }
+
+    .dashboard-tabs {
+        padding: 18px;
+        padding-bottom: 0;
+    }
+
+    .side-tabs .nav-tabs .nav-link {
+    margin-bottom: 16px;
+    padding: 10px;
+    min-width: 148px;
+    }
+    .acp-img {
+    width: 50px;
+    height: 50px;
+}
+.side-tabs .nav-tabs .nav-link span {
+    font-size: 14px;
+    margin-top: 19px;
+}
+.acp-img img {
+    width: 26px;
+    height: 26px;
+}
+    .user-btn {
+        padding-top: 0;
+    }
+
+    .breadcrumb .breadcrumb i {
+        font-size: 14px;
+    }
+
+    .booking-page .sendnotes {
+        padding: 20px;
+    }
+
+    .login-page .contact-form {
+        padding: 30px 20px;
+    }
+
+    .contact-sec.login-page,
+    .register-page {
+        padding: 42px 24px;
+    }
+
+    .booking-page #booking-form .form-group.field-bookings-is_d_of_e {
+        margin-bottom: 34px;
+    }
+
+    /* Dashboard */
+
+    /* FAQ */
+    .faq-sec .accordion-button {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    /* FAQ */
+    .review-details-box {
+        display: block;
+        text-align: center;
+    }
+
+    .right-review {
+        border: none;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-review {
+        margin: auto;
+        padding-bottom: 5px;
+    }
+
+    .camping_image {
+        margin: auto;
+    }
+    .right-review .camping_image img, .user_image img {
+    margin-right: 8px;
+}
+.bottom-header .login .navbar-special-sub {
+    min-width: 150px;
+}
+.captcha-block .captcha-field {
+    max-width: initial;
+    flex: auto;
+}
+.inner-banner {
+    padding: 50px 0;
+}
+.inner-banner h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.inner-content .subtitle {
+    font-size: 16px;
+    padding-top: 8px;
+}
+.navbar-toggler {
+    margin-right: 12px;
+}
+footer .about-footer {
+    width: 100%;
+}
+.contact-footer p {
+    padding-right: 0;
+}
+.all-products.similar-products .trending-content h3 {
+    min-height: auto;
+}
+.product-options a {
+    height: 48px;
+    padding: 12px 24px;
+}
+.product-options .cart-btn {
+    padding: 12px 22px;
+    min-width: 185px;
+}
+.product-title h2{
+    font-size: 24px;
+}
+.breadcrumb span {
+    font-size: 14px;
+}
+.cart-checkout .booking-table {
+    width: 100%;
+}
+.cart-summary {
+    width: 100%;
+    margin-top: 30px;
+}
+.cart-checkout .btn-theme {
+    font-size: 14px;
+    padding: 14px 24px;
+}
+.cart-checkout .btn-yellow {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 450px) {
+    .banner-content h2 {
+        font-size: 18px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .about-logo-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-inner nav.navbar.navbar-expand-lg {
+        top: 68px;
+    }
+    .side-tabs .nav-tabs .nav-link{
+                margin-right: 16px;
+    }
+    .dashboard-tabs .nav-tabs {
+    column-gap: initial;
+}
+.user-btn {
+    gap: initial;
+}
+.user-btn a{
+            margin-bottom: 12px;
+}
+}

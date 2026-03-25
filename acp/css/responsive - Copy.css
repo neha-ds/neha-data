@@ -1,0 +1,264 @@
+@media (min-width: 992px) {
+.navbar-toggler {
+    display: none;
+}
+}
+
+@media (max-width: 1320px) {
+.header-inner .navbar-nav .nav-item {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.acp-facility-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+@media (max-width: 1199px) {
+	.bottom-header {
+    padding: 15px 8px;
+}
+.header-inner .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+}
+.header-inner .navbar-nav .nav-item {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bottom-header .login-block {
+    margin-right: 20px;
+}
+	.contact-right {
+    padding-left: 14px;
+}
+.login-banner h2 {
+    font-size: 34px;
+}
+.dashboard-block .customer-product .trending-content h3 {
+    font-size: 16px;
+}
+.priceing-block p {
+    padding: 0px 24px;
+}
+}
+
+@media (max-width: 991px) {
+	.header-inner nav.navbar.navbar-expand-lg {
+    position: absolute;
+    background: transparent;
+    top: 65px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.navbar-nav {
+    background: #093542;
+}
+.header-inner .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 14px 8px;
+}
+
+.bottom-header .login-block{
+	    margin-right: 16px;
+}
+.bottom-header .login-block {
+    width: 100%;
+    justify-content: end;
+}
+.banner-content h2 {
+    font-size: 50px;
+}
+.about-image {
+    margin-top: 30px;
+}
+.acp-facility-left {
+    width: 100%;
+}
+.acp-facility-right {
+ width: 100%;
+    padding-left: 0;
+    margin-top: 24px;
+    position: relative;
+}
+.facility-slide {
+    margin-right: 0;
+}
+.priceing-block,.trending-block {
+    margin-bottom: 30px;
+}
+.camping-content,.camping-img {
+    width: 100%;
+}
+.faq-sec .accordion {
+    padding: 0 24px;
+}
+.contact-right {
+    margin-top: 30px;
+}
+.contact-footer,.menu-footer {
+    margin-top: 30px;
+}
+.copyright {
+    text-align: center;
+}
+.footer-bottom .dots-logo {
+    float: initial;
+    justify-content: center;
+}
+.acp-facility {
+    padding: 70px 0;
+}
+.contact-block.contact-location p {
+    padding-right: 0;
+}
+.book-btn {
+    margin-top: 0;
+}
+.priceplan-sec {
+    padding: 42px 0;
+}
+.product-thumbnail ul li {
+    min-height: 75px;
+}
+.testimonial-review .slick-list {
+    padding: 0;
+}
+}
+
+@media (max-width: 767px) {
+	.banner-content h2 {
+    font-size: 28px;
+}
+.banner .slick-prev,.banner .slick-next {
+    width: 45px;
+    height: 45px;
+}
+.banner-content p{
+	font-size: 16px;
+}
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+}
+.heading {
+    margin-bottom: 30px;
+}
+.read-more {
+    max-width: 205px;
+}
+.banner .slick-next {
+    right: 15px;
+}
+.banner .slick-prev {
+    left: 15px;
+}
+.video-img .shadow-video {
+    margin-right: -8px;
+    max-width: 230px;
+    margin-top: -30px;
+}
+.all-product {
+    gap: 18px;
+    margin-top: 20px;
+}
+.priceplan-sec,.acp-facility {
+    padding: 55px 0;
+}
+.all-product img {
+    display: none;
+}
+.contact-right h2 {
+    padding-right: 0;
+}
+.contact-form {
+    padding: 32px 28px;
+}
+.contact-form .form-group:before{
+	    right: 30px;
+}
+.contact-sec {
+    padding: 55px 0;
+}
+.trending-products {
+    padding: 44px 0 48px;
+}
+.testimonial-review {
+    margin-right: 0;
+    -webkit-mask-image: initial;
+}
+.faq-sec {
+    padding: 24px 0 55px;
+}
+.booking-banner {
+    padding: 55px 0;
+}
+.user-btn a {
+    font-size: 14px;
+    text-align: center;
+}
+.user-information {
+    padding: 23px 15px 20px;
+}
+.login-banner {
+    padding: 40px 0;
+}
+.login-banner h2 {
+    font-size: 24px;
+}
+.breadcrumb li {
+    font-size: 14px;
+}
+.dashboard-block {
+    padding: 35px 15px 38px;
+}
+.contact-sec.login-page.dashboard-inner {
+    padding: 50px 0;
+}
+.about-sec {
+    margin-top: -226px;
+    padding: 72px 0 64px;
+}
+.posts-box {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+}
+.posts-box a {
+    margin-right: 12px;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+.all-products {
+    padding: 50px 0;
+}
+.product-media {
+    width: 100%;
+}
+.product-info-content {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 30px;
+}
+}
+
+@media (max-width: 450px) {
+.banner-content h2 {
+    font-size: 18px;
+}
+.banner-content p {
+    font-size: 14px;
+}	
+.about-logo-img {
+    width: 120px;
+    height: 120px;
+}
+.review-details-box {
+    flex-wrap: wrap;
+}
+}
